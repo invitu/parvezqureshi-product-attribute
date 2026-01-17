@@ -30,7 +30,8 @@ PoS Product Cost Security
 
 This is a glue module to avoid permission errors when loading data in
 the Point of Sale if the user has no ``standard_price`` (cost) field
-permissions.
+permissions. It also hides the margin and cost fields in Pos Orders and
+Pos Sale Report for non-allowed users
 
 **Table of contents**
 
@@ -65,6 +66,10 @@ Contributors
 - `SerpentCS <https://www.serpentcs.com>`__:
 
   - Parvez Qureshi <parvez.qureshi@serpentcs.com>
+
+- `Invitu <https://www.invitu.com>`__:
+
+  - Cyril Vinh-Tung <cyril@invitu.com>
 
 Maintainers
 -----------
